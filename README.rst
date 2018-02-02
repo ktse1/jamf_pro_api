@@ -3,7 +3,7 @@ jamf Pro API
 ============
 
 
-.. image:: https://img.shields.io/pypi/v/jamf_pro_api.svg
+.. image:: https://img.shields.io/pypi/v/jssapi.svg
         :target: https://pypi.python.org/pypi/jssapi
 
 .. image:: https://img.shields.io/travis/sreyemnayr/jamf_pro_api.svg
