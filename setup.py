@@ -13,7 +13,7 @@ with open('HISTORY.rst') as history_file:
 
 requirements = [
     'Click>=6.0',
-    'SQLAlchemy>=1.2.2'
+    'SQLAlchemy>=1.2.2',
     # TODO: put package requirements here
 ]
 
