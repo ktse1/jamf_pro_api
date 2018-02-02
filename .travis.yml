@@ -18,12 +18,13 @@ deploy:
       VHZ3K3VXcVVoK3ZISVBEUkR1TXBkR1lzRnhEWDh4WkxyUERza1RKaDBZZmE4ZldqYVg0WHk1YzZN
       KzY1UUNmVUhYT0xyTkN5NFV2bW9jQUlaTGF2SG1NWHpJN0RlNzU5U1BxZVlHZjVIY1UvdCtISlE9
   true:
-    python: 2.7
+    python: 3.6
     repo: sreyemnayr/jamf_pro_api
     tags: true
 install: pip install -U tox-travis
 language: python
 python:
+- 3.6
 - 3.5
 - 3.4
 - 3.3

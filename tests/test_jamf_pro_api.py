@@ -7,8 +7,8 @@ import pytest
 
 from click.testing import CliRunner
 
-from ..jssapi import jssapi
-from ..jssapi import cli
+from jssapi import jssapi
+from jssapi import cli
 
 
 @pytest.fixture
