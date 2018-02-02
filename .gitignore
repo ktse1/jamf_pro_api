@@ -61,5 +61,5 @@ target/
 # pyenv python configuration file
 .python-version
 
-.travis.yml
+
 .editorconfig
