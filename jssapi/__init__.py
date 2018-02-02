@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+from .jssapi import JSSApi
+from .cph import ConfigProfileHelper
+
 """Top-level package for jamf Pro API."""
 
 __author__ = """Ryan Meyers"""
