@@ -38,7 +38,7 @@
 
 import uuid
 import plistlib
-import cgi
+import cgi, html
 
 class ConfigProfileHelper:
 
@@ -91,6 +91,6 @@ class ConfigProfileHelper:
         formatted_profile = plistlib.writePlistToString(profile)
 
         if escape:
-            return cgi.escape(formatted_profile)
+            return html.escape(formatted_profile)
         else:
             return formatted_profile

@@ -28,24 +28,24 @@ test_requirements = [
 ]
 
 setup(
-    name='jamf_pro_api',
+    name='jssapi',
     version='0.1.0',
     description="Provide API calls for jamf Pro (formerly JSS)",
     long_description=readme + '\n\n' + history,
     author="Ryan Meyers",
     author_email='ryanmeyersweb@gmail.com',
     url='https://github.com/sreyemnayr/jamf_pro_api',
-    packages=find_packages(include=['jamf_pro_api']),
+    packages=find_packages(include=['jssapi']),
     entry_points={
         'console_scripts': [
-            'jamf_pro_api=jamf_pro_api.cli:main'
+            'jssapi=jssapi.cli:main'
         ]
     },
     include_package_data=True,
     install_requires=requirements,
     license="MIT license",
     zip_safe=False,
-    keywords='jamf_pro_api',
+    keywords='jssapi',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',

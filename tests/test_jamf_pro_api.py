@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Tests for `jamf_pro_api` package."""
+"""Tests for `jssapi` package."""
 
 import pytest
 
 from click.testing import CliRunner
 
-from jamf_pro_api import jamf_pro_api
-from jamf_pro_api import cli
+from ..jssapi import jssapi
+from ..jssapi import cli
 
 
 @pytest.fixture
@@ -32,7 +32,7 @@ def test_command_line_interface():
     runner = CliRunner()
     result = runner.invoke(cli.main)
     assert result.exit_code == 0
-    assert 'jamf_pro_api.cli.main' in result.output
+    assert 'jssapi.cli.main' in result.output
     help_result = runner.invoke(cli.main, ['--help'])
     assert help_result.exit_code == 0
     assert '--help  Show this message and exit.' in help_result.output

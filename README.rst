@@ -4,10 +4,10 @@ jamf Pro API
 
 
 .. image:: https://img.shields.io/pypi/v/jamf_pro_api.svg
-        :target: https://pypi.python.org/pypi/jamf_pro_api
+        :target: https://pypi.python.org/pypi/jssapi
 
 .. image:: https://img.shields.io/travis/sreyemnayr/jamf_pro_api.svg
-        :target: https://travis-ci.org/sreyemnayr/jamf_pro_api
+        :target: https://travis-ci.org/sreyemnayr/jssapi
 
 .. image:: https://readthedocs.org/projects/jamf-pro-api/badge/?version=latest
         :target: https://jamf-pro-api.readthedocs.io/en/latest/?badge=latest

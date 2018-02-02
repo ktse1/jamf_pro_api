@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+"""Main module."""
+
 import requests
 import sys
 
@@ -88,6 +90,6 @@ class JSSApi:
         self.e = sys.exc_info()[0]
 
         if dbhost != None:
-            self.set_db(host=dbhost,db=db,user=dbuser,passwd=dbpasswd,keep_alive=dbkeepalive)
+            self.set_db(host=dbhost,db=db,user=dbuser,passwd=dbpasswd)
         else:
             self.engine = None
