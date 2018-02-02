@@ -7,7 +7,7 @@ jamf Pro API
         :target: https://pypi.python.org/pypi/jssapi
 
 .. image:: https://img.shields.io/travis/sreyemnayr/jamf_pro_api.svg
-        :target: https://travis-ci.org/sreyemnayr/jssapi
+        :target: https://travis-ci.org/sreyemnayr/jamf_pro_api
 
 .. image:: https://readthedocs.org/projects/jamf-pro-api/badge/?version=latest
         :target: https://jamf-pro-api.readthedocs.io/en/latest/?badge=latest
