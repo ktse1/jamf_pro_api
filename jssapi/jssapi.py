@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Main module."""
+"""Main JSSApi module."""
 
 import requests
 import sys
