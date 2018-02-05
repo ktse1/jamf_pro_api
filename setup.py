@@ -30,7 +30,7 @@ test_requirements = [
 
 setup(
     name='jssapi',
-    version='0.1.2',
+    version='0.2.0',
     description="Provide API calls for jamf Pro (formerly JSS)",
     long_description=readme + '\n\n' + history,
     author="Ryan Meyers",

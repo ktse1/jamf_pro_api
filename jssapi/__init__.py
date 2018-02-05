@@ -7,4 +7,4 @@ from .cph import ConfigProfileHelper
 
 __author__ = """Ryan Meyers"""
 __email__ = 'ryanmeyersweb@gmail.com'
-__version__ = '0.1.2'
+__version__ = '0.2.0'
